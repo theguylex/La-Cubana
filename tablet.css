@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.top {
+    /* background-size: 100rem; */
+    /* background-position: right left; */
+    height: 80rem;
+}
+
+.logo img{
+    position: absolute;
+    top: 3.375rem;
+    left: 28.75rem;
+    height: 10.975rem;
+}
+
+.topNav {
+    position: absolute;
+    top: 17.438rem;
+    left: 11.063rem;
+}
+
+.topNav li a {
+    font-size: 1.263rem;
+}
+
+.topHeader h1 {
+    position: absolute;
+    left: 10rem;
+    top: 32rem;
+    font-size: 8rem;
+    line-height: 8.5rem;
+}
+
+.topHeader h3 {
+    position: absolute;
+    top: 52rem;
+    left: 18.2rem;
+    font-size: 1.9rem;
+}
+
+.locations {
+    height: 70.625rem;
+}
+
+.location1 {
+    position: absolute;
+    left: 2.5rem;
+}
+
+.spot1, .spot2 {
+    margin-top: 3rem;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 4.1rem;
+    font-weight: 500;
+    /* letter-spacing: 0.125rem; */
+    width: 30.1rem;
+    line-height: 3.5rem;
+    /* border: 0.063rem solid black; */
+}
+
+.spot1 {
+    margin-left: 0.1rem;
+}
+
+.location2 {
+    margin-left: 2.5rem;
+}
+
+.address1, .address2 {
+    font-size: 1.4rem;
+    /* letter-spacing: ; */
+    margin-top: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.email1 a, .email2 a {
+    font-size: 1.5rem;
+}
+
+.openDays1, .openDays2 {
+    font-size: 1.75rem;
+    font-weight: 590;
+}
+
+.spanDay {
+    margin-left: 0.7rem;
+}
+
+.services1, .services2 {
+    width: 33rem;
+    font-size: 1.4rem;
+    /* border: 0.063rem solid black; */
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.notice1, .notice2 {
+    width: 35rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+    /* border: 0.063rem solid black; */
+    letter-spacing: 0.1rem;
+    font-family: Arial;
+    line-height: 2rem;
+}
+
+.limage1 {
+    margin-top: 2rem;
+    width: 35rem;
+    height: 15rem;
+}
+
+.limage2 {
+    width: 35rem;
+    margin-top: 0rem;
+    height: 15rem;
+}
+ .menu {
+    height: 33rem;
+ }
+
+.menu img {
+    position: absolute;
+    top: 1.75rem;
+    left: 28.625rem;
+    height: 12.688rem;
+}
+
+.menu p {
+    position: absolute;
+    top: 15.75rem;
+    left: 2.925rem;
+    line-height: 1.8rem;
+    /* height: 12.688rem; */
+    font-size: 1.5rem;
+    /* border: 0.063rem solid black; */
+    width: 75rem;
+}
+
+.privateEvents {
+    /* background-size: 100rem; */
+    /* background-position: right left; */
+    height: 80rem;
+}
+
+.privateEvents h1 {
+    font-size: 9rem;
+    width: 29rem;
+    /* border: 0.063rem solid green; */
+    line-height: 9rem;
+    text-align: center;
+}
+
+.privateEvents h3 {
+    margin-top: 15rem;
+    font-size: 2.1rem;
+    position: absolute;
+    left: 7rem;
+    line-height: 3rem;
+}
+
+.privateEvents a {
+    margin-top: 20rem;
+    font-size: 2rem;
+    position: absolute;
+    left: 26rem;
+}
+
+.subscribe {
+    height: 37rem;
+}
+
+.signUp {
+    height: 30rem;
+    width: 20rem;
+}
+
+.signUp h1 {
+    font-size: 3rem;
+}
+
+.signUp p {
+    font-size: 1.4rem;
+}
+
+.signUp input {
+    margin-left: 1rem;
+    /* margin-bottom: 3rem; */
+    font-size: 1.5rem;
+}
+
+#emailAdd {
+    height: 4rem;
+    width: 17rem;
+}
+
+.signUp button {
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.9rem;
+}
+
+.signUp h5 {
+    margin-top: 9rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.footer {
+    height: 25rem;
+}
+
+.icons {
+    font-size: 3.2rem;
+    position: absolute;
+    left: 37rem;
+}
+
+.footer h3 {
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    border: 0.063rem white;
+    position: absolute;
+    left: 29rem;
+}

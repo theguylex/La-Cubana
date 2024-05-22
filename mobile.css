@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.top {
+    background-size: 73rem;
+    /* background-position: right left; */
+    height: 55rem;
+}
+
+.logo img{
+    position: absolute;
+    top: 3rem;
+    left: 15.6rem;
+    height: 4.8rem;
+}
+
+.topNav {
+    position: absolute;
+    top: 17.438rem;
+    left: 1.1rem;
+    /* text-align: justify; */
+    width: 39rem;
+    /* align-items: center; */
+    display: none;
+    /* border: 0.063rem solid white; */
+}
+
+.topNav li a {
+    font-size: 1.263rem;
+}
+
+.topHeader h1 {
+    position: absolute;
+    left: 5rem;
+    top: 20rem;
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+
+.topHeader h3 {
+    position: absolute;
+    top: 32rem;
+    left: 3.2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.locations {
+    height: 125.625rem;
+    /* border: 0.063rem solid black; */
+}
+
+.location1 {
+    position: absolute;
+    /* left: 2.5rem; */
+}
+
+.spot1, .spot2 {
+    margin-top: 3rem;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 3.1rem;
+    font-weight: 500;
+    /* letter-spacing: 0.125rem; */
+    width: 27rem;
+    line-height: 3.5rem;
+    /* border: 0.063rem solid black; */
+}
+
+.spot1 {
+    margin-left: 0.1rem;
+}
+
+.location2 {
+    position: absolute;
+    left: 0rem;
+    margin-top: 60rem;
+    /* border: 0.063rem solid black; */
+    width: 37rem;
+}
+
+.address1, .address2 {
+    font-size: 1.4rem;
+    /* letter-spacing: ; */
+    margin-top: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.email1 a, .email2 a {
+    font-size: 1.5rem;
+}
+
+.openDays1, .openDays2 {
+    font-size: 1.75rem;
+    font-weight: 590;
+}
+
+.spanDay {
+    margin-left: 0.7rem;
+}
+
+.services1, .services2 {
+    width: 33rem;
+    font-size: 1.4rem;
+    /* border: 0.063rem solid black; */
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.notice1, .notice2 {
+    width: 35rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+    /* border: 0.063rem solid black; */
+    letter-spacing: 0.1rem;
+    font-family: Arial;
+    line-height: 2rem;
+}
+
+.limage1 {
+    margin-top: 2rem;
+    width: 35rem;
+    height: 15rem;
+}
+
+.limage2 {
+    width: 35rem;
+    margin-top: 2rem;
+    height: 15rem;
+}
+ .menu {
+    height: 34rem;
+ }
+
+.menu img {
+    position: absolute;
+    top: 3.375rem;
+    left: 15.6rem;
+    height: 6.8rem;
+}
+
+.menu p {
+    position: absolute;
+    top: 10.75rem;
+    left: 2.925rem;
+    line-height: 1.8rem;
+    /* height: 12.688rem; */
+    font-size: 1.24rem;
+    /* border: 0.063rem solid black; */
+    width: 35rem;
+    text-align: center;
+}
+
+.privateEvents {
+    /* background-size: 80rem; */
+    /* background-position: right left; */
+    height: 32rem;
+}
+
+.privateEvents h1 {
+    position: absolute;
+    left: 4.2rem;
+    top: 4.7rem;
+    font-size: 4.5rem;
+    width: 33rem;
+    /* border: 0.063rem solid green; */
+    /* line-height: 1rem; */
+    /* text-align: center; */
+}
+
+.privateEvents h3 {
+    font-size: 2rem;
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    line-height: 3rem;
+}
+
+.privateEvents a {
+    font-size: 1.7rem;
+    position: absolute;
+    left: 9rem;
+    top: 5rem;
+}
+
+.subscribe {
+    height: 80rem;
+}
+
+.subscribe img {
+    position: absolute;
+    left: 1rem;
+    height: 39.7rem;
+}
+
+.signUp {
+    position: absolute;
+    top: 45rem;
+    left: 2rem;
+    height: 30.7rem;
+    width: 37.5rem;
+}
+
+.signUp h1 {
+    font-size: 4rem;
+}
+
+.signUp p {
+    font-size: 1.9rem;
+    /* border: 0.063rem solid black; */
+}
+
+.signUp input {
+    margin-left: 1rem;
+    /* margin-bottom: 3rem; */
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#emailAdd {
+    height: 5rem;
+    width: 95%;
+    position: absolute;
+    left: 0rem;
+    border: none;
+    outline: none;
+}
+
+.signUp button {
+    margin-top: 8rem;
+    margin-left: 10rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.signUp h5 {
+    margin-top: 9rem;
+    margin-left: 11rem;
+    font-size: 2rem;
+}
+
+.footer {
+    height: 19rem;
+}
+
+.icons {
+    font-size: 3.2rem;
+    position: absolute;
+    left: 17rem;
+}
+
+.footer h3 {
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    border: 0.063rem white;
+    position: absolute;
+    left: 9rem;
+}

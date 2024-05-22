@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* html {
+    font-size: 62.5%;
+} */
+
+.top {
+    position: relative;
+    background: url("/images/top\ img\ bg.png")no-repeat center center/cover;
+    height: 64.313rem;
+    width: 100%;
+}
+
+.logo img{
+    position: absolute;
+    top: 2.375rem;
+    left: 34.75rem;
+    height: 6.875rem;
+}
+
+.topNav {
+    position: absolute;
+    top: 10.438rem;
+    left: 19.063rem;
+}
+
+.topNav li {
+    float: left;
+    list-style-type: none;
+}
+
+.topNav li a {
+    text-decoration: none;
+    padding: 0.625rem 1.063rem;
+    font-family: arial;
+    font-size: 1.063rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.125rem;
+}
+
+.topNav li a:hover {
+    color: rgba(255, 255, 255, 0.43);
+}
+
+.topHeader h1 {
+    position: absolute;
+    top: 25.75rem;
+    left: 25rem;
+    color: white;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-weight: 25rem;
+    font-size: 4.5rem;
+    letter-spacing: 0.625rem;
+    line-height: 4.95rem;
+}
+
+.topHeader h3 {
+    position: absolute;
+    top: 36.875rem;
+    left: 30.625rem;
+    color: white;
+    font-family: arial;
+    font-size: 1.125rem;
+    letter-spacing: 0.063rem;
+}
+
+.locations {
+    position: relative;
+    top: 0rem;
+    /* background-color: red; */
+    width: 100%;
+    height: 40.625rem;
+    background-color: rgb(245, 248, 237);
+    /* border: 0.125rem solid blue; */
+}
+.location1 {
+    position: absolute;
+    top: 5rem;
+    left: 10.5rem;
+    color: black;
+}
+
+.spot1, .spot2 {
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 1.813rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+}
+
+.address1, .address2 {
+    font-family: arial;
+    font-size: 0.938rem;
+    font-weight: 700;
+    color: rgba(28, 28, 28, 0.8);
+    letter-spacing: 0.047rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.email1 a, .email2 a {
+    font-family: century;
+    font-size: 0.938rem;
+    /* font-weight: 400; */
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.02rem;
+    text-decoration: none;
+}
+
+.phone {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 0.938rem;
+}
+
+.openDays1, .openDays2 {
+    font-family: century;
+    font-size: 0.938rem;
+    /* font-weight: 400; */
+    letter-spacing: 0.02;
+    margin-top: 0.938rem;
+    margin-bottom: 0.938rem;
+}
+
+.spanDay {
+    margin-left: 0.938rem;
+}
+
+.services1, .services2 {
+    font-family: arial;
+    font-size: 0.938rem;
+    font-weight: 700;
+    color: rgba(28, 28, 28, 0.8);
+    letter-spacing: 0.047rem;
+    margin-top: 1.406rem;
+    margin-bottom: 1.406rem;
+}
+
+.notice1, .notice2 {
+    font-family: century;
+    font-size: 0.938rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    margin-top: 0.938rem;
+    margin-bottom: 2.5rem;
+}
+
+.location2 {
+    position: absolute;
+    top: 5rem;
+    right: 6.25rem;
+}
+
+.limage1, .limage2 {
+    height: 11.313rem;
+    width: 30.625rem;
+}
+
+.carousel {
+    position: relative;
+    background: url("/images/La+Cubana+-+Beer-+Final_SML.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 47.563rem;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 24.313rem;
+    background-color: rgb(245, 248, 237);
+}
+
+.menu img {
+    position: absolute;
+    top: 3.75rem;
+    left: 32.625rem;
+    height: 9.688rem;
+}
+
+.menu p {
+    position: absolute;
+    left: 10.563rem;
+    top: 13.75rem;
+    font-family: century;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.02rem;
+}
+
+.takeOutLink, .pdfLink {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.privateEvents {
+    position: relative;
+    top: 0rem;
+    background: url("/images/private\ events\ img.png")no-repeat center center/cover;
+    height: 64.313rem;
+    width: 100%;
+}
+
+.privateEvents h1 {
+    position: absolute;
+    top: 8.125rem;
+    left: 26.875rem;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.063rem;
+    line-height: 4.95rem;
+    /* margin-top: 1.406rem; */
+    /* margin-bottom: 1.406rem; */
+}
+
+.privateEvents h3 {
+    position: absolute;
+    top: 15.625rem;
+    left: 23.75rem;
+    font-family: arial;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0.056rem;
+    line-height: 1.575rem;
+    /* margin-top: 1.5rem; */
+    /* margin-bottom: 1.5rem; */
+}
+
+.privateEvents a {
+    position: absolute;
+    top: 21.25rem;
+    left: 33.938rem;
+    font-family: arial;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0.056rem;
+    line-height: 1.575rem;
+    text-decoration: none;
+}
+
+.subscribe {
+    position: relative;
+    width: 100%;
+    height: 24.875rem;
+    background-color: rgb(245, 248, 237);
+}
+
+.subscribe img {
+    position: absolute;
+    top: 2.5rem;
+    left: 21.438rem;
+    height: 20.625rem;
+}
+
+.signUp {
+    position: absolute;
+    top: 2.5rem;
+    left: 43.938rem;
+    height: 20.625rem;
+    width: 14.25rem;
+    background-color: rgb(245, 46, 59);
+}
+
+.signUp h1 {
+    color: white;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 1.688rem;
+    letter-spacing: 0.001;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.875rem;
+}
+
+.signUp p {
+    color: white;
+    font-family: century;
+    font-size: 0.938rem;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.938rem;
+    margin-bottom: 1.25rem;
+}
+
+.signUp input {
+    text-align: start;
+    font-family: century;
+    font-size: 0.938rem;
+    padding: 0.938rem;
+}
+
+#emailAdd {
+    height: 3.125rem;
+    width: 13.25rem;
+    position: absolute;
+    left: 0.5rem;
+}
+
+.signUp button {
+    position: absolute;
+    top: 13.438rem;
+    left: 2.5rem;
+    padding: 1.125rem 2.5rem;
+    border: none;
+    font-family: century;
+    font-size: 1.063rem;
+    color: white;
+    background-color: rgb(137, 214, 204);
+    border-radius: 3.125rem;
+}
+
+.signUp button:hover {
+    background-color: rgb(98, 151, 144);
+}
+
+.signUp h5 {
+    position: absolute;
+    top: 18.125rem;
+    color: white;
+    font-size: 1.188rem;
+    left: 5.875rem;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 16.875rem;
+    background-color: black;
+}
+
+.icons {
+    position: absolute;
+    top: 5.625rem;
+    left: 38.75rem;
+    /* color: white; */
+    font-size: 1.875rem;
+}
+
+
+.footer h5 {
+    position: absolute;
+    top: 9.375rem;
+    left: 32.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.footer h3 {
+    position: absolute;
+    top: 9.375rem;
+    left: 33.125rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.insta {
+    margin-right: 0.938rem;
+}
+
+.insta:hover, .facebook:hover {
+    opacity: .5;
+}
+
+.icons a {
+    color: white;
+}
